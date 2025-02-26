@@ -123,7 +123,7 @@
   * 解压`3rd_party.zip`压缩包
   * 进入glog文件夹打开终端
   * `./autogen.sh && ./configure && make && sudo make install`
-  * `sudo apt-get install liblapack-dev libsuitesparse-dev libcxsparse3.1.2 libgflags-dev libgoogle-glog-dev libgtest-dev`
+  * `sudo apt-get install liblapack-dev libsuitesparse-dev libcxsparse3.1.2 libgflags-dev libgoogle-glog-dev libgtest-dev`libcxsparse3.1.2版本可能不匹配？改成libcxsparse3就可以
   * 进入ceres文件夹打开终端
   * `mkdir build`
   * `cd build`
