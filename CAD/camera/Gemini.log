@@ -1,0 +1,1903 @@
+STEP to UG
+! INFO-     NX STEP AP214 - V8.0
+! INFO-      
+! INFO-     Start of Translation: 21-FEB-2025  8:26:56 PM
+! INFO-      
+! STATUS-   Converting Part: G:\FAST_DRONE\Fast-Drone-6-inches\CAD\reference\Gemini.STEP
+! INFO-      
+! INFO-     No solids in STEP file. 
+! INFO-     Available surface and wireframe data will be imported. 
+! INFO-      
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP214
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        Gmeni.STEP
+! SUMMARY-  Date             2024-06-27T02:43:58
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      SwSTEP 2.0
+! SUMMARY-  Orig_System      SolidWorks 2021
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:   4613
+! SUMMARY-  application_context ........................................:      2
+! SUMMARY-  application_protocol_definition ............................:      2
+! SUMMARY-  axis2_placement_3d .........................................:   5340
+! SUMMARY-  b_spline_curve_with_knots ..................................:   3932
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    124
+! SUMMARY-  b_spline_surface_with_knots ................................:    619
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:    188
+! SUMMARY-  cartesian_point ............................................:  73257
+! SUMMARY-  circle .....................................................:   1533
+! SUMMARY-  closed_shell ...............................................:     40
+! SUMMARY-  conical_surface ............................................:    475
+! SUMMARY-  cylindrical_surface ........................................:   1105
+! SUMMARY-  direction ..................................................:  17380
+! SUMMARY-  edge_curve .................................................:  12289
+! SUMMARY-  edge_loop ..................................................:   4848
+! SUMMARY-  face_bound .................................................:    235
+! SUMMARY-  face_outer_bound ...........................................:   4613
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     42
+! SUMMARY-  length_unit_and_si_unit ....................................:     42
+! SUMMARY-  line .......................................................:   6700
+! SUMMARY-  manifold_surface_shape_representation ......................:      1
+! SUMMARY-  open_shell .................................................:     89
+! SUMMARY-  oriented_edge ..............................................:  24210
+! SUMMARY-  plane ......................................................:   2194
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:     42
+! SUMMARY-  product ....................................................:      1
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:      1
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation_with_specified_source .........:      1
+! SUMMARY-  product_definition_shape ...................................:      1
+! SUMMARY-  product_related_product_category ...........................:      1
+! SUMMARY-  shape_definition_representation ............................:      1
+! SUMMARY-  shell_based_surface_model ..................................:      1
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:     42
+! SUMMARY-  toroidal_surface ...........................................:     32
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     42
+! SUMMARY-  vector .....................................................:   6700
+! SUMMARY-  vertex_point ...............................................:   8006
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         178746
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 21-FEB-2025 8:26:57 PM
+! STATUS-    
+! INFO-     CV : STEP Ent Id     178424 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     144780 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     130543 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      36909 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      51662 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      16020 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     104822 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     127724 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      93552 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     145644 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     108189 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     166288 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      73365 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     163194 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      68352 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     112192 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      86507 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      46282 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     121022 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      45085 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     112031 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       9453 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     124806 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     171733 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     127967 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     163771 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     112745 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      77210 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      51604 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      47050 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     116972 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      61363 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 21-FEB-2025  8:26:58 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 129484
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 158666
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 57321
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 126636
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 155433
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 172758
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 66092
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 42579
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 60033
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 170044
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 16655
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 117819
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 25279
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 19891
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 77335
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 169918
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 109244
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 88979
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 100475
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 19619
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 152718
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 111998
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 146922
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 2355
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 109374
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 80184
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 45570
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 45694
+! STATUS-    
+! INFO-     Degeneracy in b-spline entity 45280 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -0.069838 -5.974443 -5.670000
+! INFO-     Degeneracy in b-spline entity 114096 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         31.661927 7.808008 -4.099889
+! INFO-     Degeneracy in b-spline entity 52113 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -3.278828 -6.342398 -5.550595
+! INFO-     Degeneracy in b-spline entity 75962 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -3.278743 -5.990117 -5.550595
+! INFO-     Degeneracy in b-surface entity 66655 in U direction was corrected at
+! INFO-     or around these locations.  A shape change has resulted:
+! INFO-         -0.069838 -5.974432 -5.550595
+! INFO-     Degeneracy in b-surface entity 66655 in U direction was corrected at
+! INFO-     or around these locations.  A shape change has resulted:
+! INFO-         -0.069838 -5.974432 -5.670000
+! INFO-     Degeneracy in b-spline entity 68515 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -31.670608 -7.809856 -4.099878
+! INFO-     Degeneracy in b-spline entity 26828 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -31.634126 7.619520 -4.099878
+! INFO-     Degeneracy in b-spline entity 115399 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -29.709417 10.338181 -4.099878
+! INFO-     Degeneracy in b-spline entity 124677 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         31.634126 -7.619520 -4.099878
+! INFO-     Degeneracy in b-spline entity 146980 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         29.709417 -10.338181 -4.099878
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 33968
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 8177
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 114987
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 74491
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 112131
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 121079
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting topology faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! WARNING-  solid body contains fault: 13821 - RTSTVT: Vertices touch.
+! WARNING-  solid body (Unnamed) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 5493
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 8051
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 10997
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 25403
+! STATUS-    
+! INFO-     Degeneracy in b-spline entity 48022 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -31.743033 7.403441 -5.300114
+! INFO-     Degeneracy in b-spline entity 82520 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         31.743040 7.403441 -5.300120
+! INFO-     Degeneracy in b-spline entity 46195 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         32.508603 2.875719 2.600053
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing inconsistent loop faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! WARNING-  solid body contains fault: 13826 - RTSTLC: Loops inconsistent.
+! WARNING-  solid body contains fault: 13826 - RTSTLC: Loops inconsistent.
+! WARNING-  solid body contains fault: 13826 - RTSTLC: Loops inconsistent.
+! WARNING-  solid body (Unnamed) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 175971
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 51400
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 161245
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 74621
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 71649
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 5213
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 103323
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 143946
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 149730
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 51657
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 34092
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 146789
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 11256
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 167199
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 13933
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 126502
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 31253
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 115109
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 36926
+! STATUS-    
+! INFO-     Degeneracy in b-spline entity 162031 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -11.097902 -4.324996 -0.080000
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing face-face inconsistency faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body (Unnamed) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 138263
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing face-face inconsistency faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body (Unnamed) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 19753
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   fixing face-face inconsistency faults
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body contains fault: 13816 - RTSTFF: Face-Face inconsistency.
+! WARNING-  sheet body (Unnamed) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 71910
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 97888
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 68676
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 48668
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 175699
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 150000
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 95030
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 42703
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 143823
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 16786
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 86011
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 91816
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 140992
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 97629
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 31387
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 22464
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 68804
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 74757
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 138133
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 48533
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 94883
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 94631
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 54213
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 135164
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 120800
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 63122
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 39859
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 31123
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 65963
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 83159
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 80311
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 132309
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 42822
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 120672
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 173146
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 164196
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 16915
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 158396
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 173001
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 144216
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 152592
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 123633
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 57201
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 13809
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 2622
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 62986
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 100600
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 62864
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 65845
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 167071
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 83416
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 129753
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 126889
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 106295
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 28529
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 77463
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 135288
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 86136
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 178527
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 57075
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 94757
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 48803
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 103457
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 141127
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 109114
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 25673
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 2230
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 103715
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 117956
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG sheet body from Input Ent Id 28269
+! STATUS-    
+! STATUS-   removing any duplicate geometry
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-   removing any unnecessary topology
+! STATUS-    
+! INFO-     Filing Part ..: G:\FAST_DRONE\Fast-Drone-6-inches\CAD\camera\Gemini.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:   129
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            129
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        40
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        38
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         2
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 21-FEB-2025  8:27:09 PM
+! INFO-      
